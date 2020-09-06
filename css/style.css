@@ -1,0 +1,30 @@
+.form-cpf {
+    margin: 200px auto;
+    display: block;
+    width: 300px;
+
+    box-shadow: none;
+}
+
+label {
+    display: block;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    color: #222222;
+    margin: 10px 10px 0 10px;
+}
+
+input {
+    display: block;
+    font-family: "IBM Plex Mono", monospace;
+    margin: 10px;
+    width: 280px;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
