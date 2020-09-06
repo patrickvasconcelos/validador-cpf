@@ -1,4 +1,4 @@
-.form-cpf {
+form {
     margin: 200px auto;
     display: block;
     width: 300px;
@@ -11,14 +11,13 @@ label {
     font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
     color: #222222;
-    margin: 10px 10px 0 10px;
+    margin-bottom: 5px;
 }
 
 input {
     display: block;
     font-family: "IBM Plex Mono", monospace;
-    margin: 10px;
-    width: 280px;
+    width: 100%;
     padding: 5px;
     border: 2px solid black;
     font-size: 1em;
@@ -27,4 +26,23 @@ input {
 
 input::placeholder {
     color: rgba(0, 0, 0, 0.2);
+}
+
+input.erro {
+    border-color: #bb0000;
+}
+
+input.valido {
+    border-color: #009900;
+}
+
+.erro-text {
+    display: none;
+    font-family: "IBM Plex Mono";
+    font-size: 0.875rem;
+    color: #bb0000;
+}
+
+.erro-text.ativar {
+    display: block;
 }
